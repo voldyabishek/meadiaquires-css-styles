@@ -71,7 +71,7 @@ nav{
 }
 
 /*mobile screen landscape*/
-@meadia screen and(max-height:425px)and(min-aspect-ratio:6/9){
+@meadia screen and (max-height:425px) and (min-aspect-ratio:6/9){
      
       body{
          background-color:purple;
