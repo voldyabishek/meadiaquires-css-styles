@@ -1,7 +1,7 @@
 *{
  margin:0;
  padding:0;
- box-sizzing:border-box;
+ box-sizing:border-box;
  }
 
 body{
@@ -9,14 +9,14 @@ body{
     min-height:100vh;
     background-color:aqua;
     background-image:radial-gradient(whitesmoke,rgb(154,154,154));
-    dispaly:flex;
-    flex-direction:colum;  
+    display:flex;
+    flex-direction:column;  
     }
 
 header,nav,main,footer{
          display:grid;
           place-content:center;
-          grid-template-colums:100%;
+          grid-template-columns:100%;
           text-align:center;
 }
 
@@ -66,7 +66,7 @@ nav{
                background-color:rgb(0,162,255);
                background-image:radial-gradient(whitesmoke,rgb(31,117,255)); 
          nav{
-             dispaly:block;
+             display:block;
             }; 
 }
 
